@@ -258,7 +258,7 @@ h2{
         position: fixed;
         top: 0;
         z-index: 100;
-        display: inline;
+        display: ;
         width: 100%;
         padding: 100px 7% 0; 
         background: #000;
