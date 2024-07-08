@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -255,25 +256,25 @@ h2{
         left: 7%;
     }
     nav{
-        position: fixed;
-        top: 0;
+        position: relative;
+        top: 10px;
         z-index: 100;
         display: flex;
         
         width: 100%;
-        padding: 100px 7% 0; 
+        padding: 50px 7% 0; 
         background: #000;
         text-align: right; 
-        max-height: 100px;
+        max-height: 10px;
         overflow: hidden;
         transition: max-height 0.5s;
     }
     nav .nav-links{
-        margin: 10px 0;
+        margin: 100px 0px 0px 0px;
         display: block;
     }
     .register-btn{
-        margin: 15px 0 30px;
+        margin: 140px 0 30px;
         display: inline-block;
     }
     nav .fa-bars{
@@ -285,7 +286,7 @@ h2{
     }
     .active::after{
         left: -40px;
-        transform: translate(0, 50%);
+        transform: translate(-10, 50%);
         bottom: 50%;
     }
     .hidemenu{
