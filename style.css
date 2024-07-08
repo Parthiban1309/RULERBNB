@@ -256,8 +256,8 @@ h2{
         left: 7%;
     }
     nav{
-        position: relative;
-        top: 10px;
+        position: fixed;
+        top: 0px;
         z-index: 100;
         display: flex;
         
